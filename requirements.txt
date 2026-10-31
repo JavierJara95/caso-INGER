@@ -1,0 +1,10 @@
+# Instalación de uso real en Python 3.11+ / Google Colab.
+langchain-core>=1.0,<2.0
+langchain-groq>=1.0,<2.0
+langgraph>=1.0,<2.0
+langgraph-checkpoint-sqlite>=2.0,<4.0
+langsmith>=0.4,<1.0
+sentence-transformers>=3.0,<6.0
+faiss-cpu>=1.9,<2.0
+numpy>=1.26,<3.0
+pydantic>=2.0,<3.0

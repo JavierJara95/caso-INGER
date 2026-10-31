@@ -1,0 +1,25 @@
+flowchart TD
+ A[Usuario autorizado / datos ficticios] --> B[Interfaz CLI / Colab]
+ B --> C[Planificar: clasificación de intención]
+ C -->|normativa| D[Herramienta buscar_contexto: docs]
+ C -->|casos| E[Herramientas consultar_caso / buscar_contexto]
+ E --> F[(Datos sintéticos)]
+ D --> G[(Documentos simulados)]
+ E --> H[FAISS + embeddings locales + filtro exacto]
+ D --> H
+ H --> I[Constructor de contexto + reglas demo]
+ I --> J[ChatGroq: modelo GPT OSS 20B]
+ J --> K{Se solicita escribir borrador}
+ K -->|no| N[Verificar fuentes y advertencias]
+ K -->|sí| L[Herramienta guardar_borrador]
+ L --> M{Rol gestor_demo y orden explícita}
+ M -->|permitido| O[(SQLite: borradores)]
+ M -->|denegado| N
+ O --> N
+ N --> P[(SQLite: memoria larga)]
+ N --> Q[(SQLite: LangGraph checkpoints)]
+ N --> R[Respuesta + validación humana]
+ J -.observabilidad.-> S[LangSmith API]
+ E -.observabilidad.-> S
+ D -.observabilidad.-> S
+ L -.observabilidad.-> S

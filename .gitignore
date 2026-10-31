@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+var/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.pyc
+*.log
+secret*.json
+*_REAL.xlsx
+.ipynb_checkpoints

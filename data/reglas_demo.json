@@ -1,0 +1,8 @@
+{
+  "aviso": "Reglas administrativas SIMULADAS, no aprobadas por INGER y no clínicas.",
+  "reglas": [
+    {"id":"R1","descripcion":"Señalar para revisión administrativa casos con interconsulta explícitamente pendiente.","campo":"interconsulta.estado","valor":"pendiente"},
+    {"id":"R2","descripcion":"Señalar para revisión administrativa casos con traslado explícitamente pendiente o no realizado.","campo":"traslado.estado","valores":["pendiente","no_realizado"]},
+    {"id":"R3","descripcion":"Señalar para revisión administrativa casos con alguna gestión explícitamente pendiente.","campo":"gestiones.estado","valor":"pendiente"}
+  ]
+}

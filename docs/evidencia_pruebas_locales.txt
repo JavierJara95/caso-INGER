@@ -1,0 +1,16 @@
+test_ausencia_no_equivale_pendiente (test_core.PruebaDominio.test_ausencia_no_equivale_pendiente) ... ok
+test_caso_sin_reglas_activadas (test_core.PruebaDominio.test_caso_sin_reglas_activadas) ... ok
+test_control_de_acceso (test_core.PruebaDominio.test_control_de_acceso) ... ok
+test_id_normalizado (test_core.PruebaDominio.test_id_normalizado) ... ok
+test_planificacion_adaptativa (test_core.PruebaDominio.test_planificacion_adaptativa) ... ok
+test_recuperacion_documental_con_filtro (test_core.PruebaDominio.test_recuperacion_documental_con_filtro) ... ok
+test_regla_activada_pendiente (test_core.PruebaDominio.test_regla_activada_pendiente) ... ok
+test_retrieval_solo_caso_solicitado (test_core.PruebaDominio.test_retrieval_solo_caso_solicitado) ... ok
+test_borrador_idempotente_y_separado (test_core.PruebaPersistencia.test_borrador_idempotente_y_separado) ... ok
+test_flujo_offline_multiturno (test_core.PruebaPersistencia.test_flujo_offline_multiturno) ... ok
+test_memoria_multiturno_persistente (test_core.PruebaPersistencia.test_memoria_multiturno_persistente) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.025s
+
+OK
