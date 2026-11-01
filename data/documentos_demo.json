@@ -1,8 +1,0 @@
-{
-  "aviso": "DOCUMENTOS FICTICIOS DE DEMOSTRACIÓN. No deben interpretarse como protocolos clínicos oficiales.",
-  "documentos": [
-    {"fuente_id":"DOC-DEMO-01","titulo":"Procedimiento de gestión documental - SIMULADO","tipo":"documento_interno_simulado","texto":"En esta simulación, cada consulta debe mostrar la fuente y fecha del antecedente. Los estados pendientes se extraen exclusivamente de registros explícitos. La ausencia de información se informa como dato no disponible, sin concluir que exista una gestión pendiente."},
-    {"fuente_id":"DOC-DEMO-02","titulo":"Reglas de validación humana - SIMULADAS","tipo":"documento_interno_simulado","texto":"El asistente de demostración no realiza diagnósticos ni decide tratamientos. El profesional responsable verifica las fuentes y valida cualquier acción antes de intervenir en un proceso clínico o administrativo real."},
-    {"fuente_id":"DOC-DEMO-03","titulo":"Trazabilidad de registros - SIMULADA","tipo":"documento_interno_simulado","texto":"Toda síntesis debe incluir identificador anónimo de caso, fuente del registro y categoría del dato utilizado. Los borradores generados se guardan por separado y no modifican fichas clínicas ni planillas originales."}
-  ]
-}
